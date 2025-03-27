@@ -35,18 +35,24 @@ Este proyecto implementa un sencillo juego de cartas en el que los jugadores com
 Ingrese el nombre del Jugador 1: Ana Ingrese el nombre del Jugador 2: Luis Ingrese el nombre del Jugador 3: Carlos Ingrese el nombre del Jugador 4: Marta
 
 ### Ronda 1
-Nueva ronda! Ana elige una carta:
+Ingrese el nombre del Jugador 1: Ana
+Ingrese el nombre del Jugador 2: Luis
+Ingrese el nombre del Jugador 3: Carlos
+Ingrese el nombre del Jugador 4: Marta
 
-🔴 5
-
-🟢 8
+Nueva ronda!
+Ana elige una carta:
+1.  🔴 5  
+2.  🟢 8  
 Ingrese el número de la carta a jugar: 1
 
 Luis elige una carta:
-
-🔴 7 Ingrese el número de la carta a jugar: 1 ...
+1.  🔴 7
+Ingrese el número de la carta a jugar: 1
+...
 
 Ganador de la ronda: Luis
+
 
 ### Final
 El ganador del juego es Luis con 15 cartas acumuladas!
