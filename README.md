@@ -12,20 +12,6 @@ Este proyecto implementa un sencillo juego de cartas en el que los jugadores com
 
 ---
 
-## Instalación y Ejecución
-### Requisitos
-- Sistema Operativo: Windows, Linux o MacOS.
-- Compilador: g++ (GNU Compiler Collection) compatible con C++11 o superior.
-- Terminal que soporte colores ANSI.
-
-### Compilar el código
-Ejecuta el siguiente comando en la terminal:
-g++ main.cpp Juego.cpp Jugador.cpp Mazo.cpp Carta.cpp -o juego
-
-### Ejecutar el juego
-./juego
----
-
 
 ## Cómo Jugar
 1. **Inicio del juego**  
