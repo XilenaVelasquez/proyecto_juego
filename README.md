@@ -1,6 +1,6 @@
-# Juego de Cartas en C++
+# Juego de Cartas 
 
-Este proyecto implementa un sencillo juego de cartas en C++ en el que los jugadores compiten por acumular más cartas ganando rondas.
+Este proyecto implementa un sencillo juego de cartas en el que los jugadores compiten por acumular más cartas ganando rondas.
 
 ---
 
@@ -26,15 +26,6 @@ g++ main.cpp Juego.cpp Jugador.cpp Mazo.cpp Carta.cpp -o juego
 ./juego
 ---
 
-## Estructura del Código
-Archivos y sus responsabilidades:
-- `Carta.h` / `Carta.cpp` → Define la clase Carta con su color y valor.
-- `Mazo.h` / `Mazo.cpp` → Maneja el mazo de cartas y su barajado.
-- `Jugador.h` / `Jugador.cpp` → Representa a los jugadores, su mano y sus cartas acumuladas.
-- `Juego.h` / `Juego.cpp` → Lógica principal del juego, controla las rondas y declara un ganador.
-- `main.cpp` → Punto de entrada del programa.
-
----
 
 ## Cómo Jugar
 1. **Inicio del juego**  
@@ -73,22 +64,6 @@ Ganador de la ronda: Luis
 
 ### Final
 El ganador del juego es Luis con 15 cartas acumuladas!
-
----
-
-## Solución de Problemas
-**Error:** `"No se reconoce el comando 'g++'"`  
-**Solución:** Asegúrate de tener `g++` instalado y en el PATH.
-
-**Error:** `"Segmentation Fault"`  
-**Solución:** Verifica que los índices de las cartas están dentro del rango permitido.
-
----
-
-## Mejoras Futuras
-- Soporte para más jugadores.
-- Nuevas reglas de juego.
-- Modo de juego contra la computadora.
 
 ---
 
